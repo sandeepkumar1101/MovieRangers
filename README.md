@@ -15,7 +15,7 @@ That csv File can easily imported into database created by IMDBY extraction repo
 
 >Movie Website
 
-![Working](./1.jpg)
+![Working](./project.jpg)
 
 ## Dependencies
 
