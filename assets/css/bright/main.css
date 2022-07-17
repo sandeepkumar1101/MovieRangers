@@ -243,6 +243,8 @@ nav { margin-right: 200px; }
   right:  80px;
   bottom: 60px;
   left:   80px;
+  background: linear-gradient(45deg, black, transparent);
+  padding: 20px;
 }
 
 .banner-card .card-info {
@@ -263,7 +265,34 @@ nav { margin-right: 200px; }
   margin-right: 5px;
 }
 
-.banner-card .card-info span { font-weight: var(--fw-6); }
+@keyframes bgcolor {
+  0% {
+     color: #45a3e5
+  }
+
+  30% {
+      color: #66bf39
+  }
+
+  60% {
+      color: #eb670f
+  }
+
+  90% {
+     color: #f35
+  }
+
+  100% {
+     color: #864cbf
+  }
+}
+.banner-card .card-info span { font-weight: var(--fw-6); 
+  text-shadow: 2px 0 2px #0007;
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 10s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
 
 .banner-card .card-info .quality {
   background: var(--azure);
@@ -274,8 +303,12 @@ nav { margin-right: 200px; }
 
 .banner-card .card-title {
   font-size: 3em;
-  color: var(--white);
+  /* color: black; */
   text-shadow: 2px 0 2px #0007;
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 10s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
 
 
