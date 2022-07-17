@@ -536,10 +536,11 @@ while ($num != 0) {
         - #Watch List SECTION
       -->
 
-
+        <?php
+        include 'parts/_notice.php';
+        ?>
 
     </main>
-
 
 
 
@@ -549,12 +550,12 @@ while ($num != 0) {
     -->
 
 
+
   </div>
-
-
   <?php
   include 'parts/_footer.php';
   ?>
+
 
 
   <!--
