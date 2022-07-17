@@ -149,12 +149,13 @@ while ($num != 0) {
               <div class="quality">4K</div>
 
             </div>
-                <form action="list/index.php" method="POST">
-            <button type="submit">
-              <h3 class="card-title">' . $row['title'] . '</h3>
-              <input style="display:none;" value=' . $row['movie_id'] . ' type="text" name="movieid" id="movieid">
-              </button>
-              </form>
+            <form action="list/index.php" method="GET">
+                <button type="submit">
+                 <h3 class="card-title">' . $row['title'] . '</h3>
+                 <input style="display:none;" value=' . $row['movie_id'] . ' type="text" name="movieid" id="movieid">
+                 
+                </button>
+             </form>
           </div>
 
         </div>

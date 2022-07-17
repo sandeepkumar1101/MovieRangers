@@ -170,7 +170,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                      </div>';
 
   if ($num == 0) {
-    echo '<p style="color:white;" class="has-text-align-center"><strong>Download link for this movie is not avaible</strong> </strong></p>';
+    echo '<p style="color:white;" class="has-text-align-center"><strong>This Movie is not Avaible for Stream</strong> </strong></p>';
   }
   echo '<div style="display:flow-root;padding:90px;" class="center">';
   while ($num != 0) {
@@ -206,16 +206,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 
   </div>
   </div>
-  <div style="padding:20px;" class="col-lg-8">
-    <!--- Facebook icons-->
-    <div style="display:flex; " class="blog__details__social">
+  <!-- <div style="padding:20px;" class="col-lg-8"> -->
+  <!--- Facebook icons-->
+  <!-- <div style="display:flex; " class="blog__details__social">
       <a href="#" class="facebook"><i class="fa fa-facebook-square"></i> Facebook</a>
       <a href="#" class="pinterest"><i class="fa fa-pinterest"></i> Pinterest</a>
       <a href="#" class="linkedin"><i class="fa fa-linkedin-square"></i> Linkedin</a>
       <a href="#" class="twitter"><i class="fa fa-twitter-square"></i> Twitter</a>
-    </div>
-    <!---end Facebook icons-->
-  </div>
+    </div> -->
+  <!---end Facebook icons-->
+  <!-- </div> -->
   </div>
   </section>
 
